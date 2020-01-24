@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  return false if num < 0 || num.even? && num != 2 
+  return false if num < 0 || num == 1 
   return true if num == 2 
   range = []
   i = 2 
