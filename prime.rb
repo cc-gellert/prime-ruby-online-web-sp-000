@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  return false if num < 0 || num == 1 || num == 0 
+  return false if num <= 0 || num == 1 
   return true if num == 2 
   range = []
   i = 2 
@@ -12,6 +12,6 @@ def prime?(num)
     if(num % j == 0)
       return false 
     end 
-    return true
   end
+  return true 
 end 
