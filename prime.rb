@@ -4,9 +4,10 @@ def prime?(num)
   range = []
   upper = num/2 
   i = 1 
-  for(i = 1; i <= upper; i++)
-    range << i 
-  end
+  while i < upper
+    range.push(i)
+    i += 1 
+  end 
   range.each do |j|
     if(num % j == 0)
       return false 
