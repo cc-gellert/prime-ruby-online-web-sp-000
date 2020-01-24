@@ -4,7 +4,7 @@ def prime?(num)
   range = []
   upper = num/2 
   i = 1 
-  while i < upper
+  while i <= upper
     range.push(i)
     i += 1 
   end 
