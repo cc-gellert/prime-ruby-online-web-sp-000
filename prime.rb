@@ -2,8 +2,9 @@
 def prime?(num)
   return false if num.even? && num != 2 
   range = []
+  upper = (num/2)
   i = 2 
-  while i <= num
+  while i <= upper
     range.push(i)
     i += 1 
   end 
